@@ -3,7 +3,7 @@ from .models import OrderItem, ShopOrder, Payment, Delivery
 from .forms import ClientCreateForm, DeliveryCreateForm, PaymentCreateForm, \
     ClientBankAccountCreateForm, ClientElectronWalletCreateForm
 from cart.cart import Cart
-from .task import order_created
+# from .task import order_created
 
 
 def order_create(request):
@@ -43,7 +43,7 @@ def order_create(request):
                 quantity=item['quantity']
             )
         cart.clear()
-        order_created.delay(order.id)
+        # order_created.delay(order.id)
         total_cost = order.get_total_cost() + delivery_cost
         return render(request, 'order/created.html',
                       {'order': order, 'total_cost': total_cost, 'payment': pay_mtd})

@@ -4,6 +4,8 @@
     <list default="true" id="91a50fac-a700-40d1-b661-6d1d5d4d8f19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/order/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/order/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +203,7 @@
       <workItem from="1593269329583" duration="3281000" />
       <workItem from="1593529015462" duration="293000" />
       <workItem from="1608674874740" duration="18996000" />
-      <workItem from="1608698356463" duration="10811000" />
+      <workItem from="1608698356463" duration="11802000" />
     </task>
     <task id="LOCAL-00001" summary="Init git">
       <created>1608686677199</created>
@@ -294,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608709564592</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="without celery">
+      <created>1608709942039</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608709942039</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +336,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="Large update" />
     <MESSAGE value="without STORAGE_ENGINE" />
-    <option name="LAST_COMMIT_MESSAGE" value="without STORAGE_ENGINE" />
+    <MESSAGE value="without celery" />
+    <option name="LAST_COMMIT_MESSAGE" value="without celery" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="25" key="#Notifications" timestamp="1608686509109">
@@ -338,10 +348,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="101" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1608699250733" />
-    <state x="448" y="0" width="749" height="726" key="CommitChangelistDialog2" timestamp="1608709563403">
+    <state x="448" y="0" width="749" height="726" key="CommitChangelistDialog2" timestamp="1608709940969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="448" y="0" width="749" height="726" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608709563403" />
+    <state x="448" y="0" width="749" height="726" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608709940969" />
     <state x="275" y="135" key="EnvironmentVariablesDialog" timestamp="1608688430731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
