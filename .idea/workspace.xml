@@ -200,7 +200,7 @@
       <workItem from="1593269329583" duration="3281000" />
       <workItem from="1593529015462" duration="293000" />
       <workItem from="1608674874740" duration="18996000" />
-      <workItem from="1608698356463" duration="2327000" />
+      <workItem from="1608698356463" duration="3073000" />
     </task>
     <task id="LOCAL-00001" summary="Init git">
       <created>1608686677199</created>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608700586604</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Psycopg added">
+      <created>1608700808274</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608700808274</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +245,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init git" />
     <MESSAGE value="Deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deploy" />
+    <MESSAGE value="Psycopg added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Psycopg added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="25" key="#Notifications" timestamp="1608686509109">
@@ -249,10 +257,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="101" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1608699250733" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1608700585692">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1608700807371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608700585692" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608700807371" />
     <state x="275" y="135" key="EnvironmentVariablesDialog" timestamp="1608688430731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
