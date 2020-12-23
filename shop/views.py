@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404, redirect
+from django.shortcuts import render, get_object_or_404
 from shop.models import Category, Product
 from cart.forms import CartAddProductForm
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
