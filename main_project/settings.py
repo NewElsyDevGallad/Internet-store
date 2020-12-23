@@ -40,7 +40,7 @@ STATICFILES_FINDERS = (
 SECRET_KEY = 'e*vm&m8m0%h*_k=u&2$t3#_)#m)ci1k1y)*z^*9-kc7y=cm+ts'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
