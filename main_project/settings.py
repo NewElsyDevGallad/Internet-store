@@ -102,7 +102,7 @@ DATABASES = {
         'PASSWORD': 'admin',
         'HOST': 'localhost',
         'PORT': '3306',
-        'STORAGE_ENGINE': 'MyISAM / INNODB / ETC',
+        # 'STORAGE_ENGINE': 'MyISAM / INNODB / ETC',
     }
 }
 
