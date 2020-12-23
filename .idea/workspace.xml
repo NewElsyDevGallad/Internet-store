@@ -200,7 +200,7 @@
       <workItem from="1593269329583" duration="3281000" />
       <workItem from="1593529015462" duration="293000" />
       <workItem from="1608674874740" duration="18996000" />
-      <workItem from="1608698356463" duration="5837000" />
+      <workItem from="1608698356463" duration="6963000" />
     </task>
     <task id="LOCAL-00001" summary="Init git">
       <created>1608686677199</created>
@@ -265,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608704088964</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="django.conf.urls.static, not django.conf.urls">
+      <created>1608704507096</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608704507096</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +301,8 @@
     <MESSAGE value="STATIC_ROOT Fixed" />
     <MESSAGE value="Staticfiles fulled" />
     <MESSAGE value="DEBUG -&gt; True...again(" />
-    <option name="LAST_COMMIT_MESSAGE" value="DEBUG -&gt; True...again(" />
+    <MESSAGE value="django.conf.urls.static, not django.conf.urls" />
+    <option name="LAST_COMMIT_MESSAGE" value="django.conf.urls.static, not django.conf.urls" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="25" key="#Notifications" timestamp="1608686509109">
@@ -305,10 +313,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="101" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1608699250733" />
-    <state x="335" y="0" width="749" height="726" key="CommitChangelistDialog2" timestamp="1608704088023">
+    <state x="448" y="0" width="749" height="726" key="CommitChangelistDialog2" timestamp="1608704506165">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="335" y="0" width="749" height="726" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608704088023" />
+    <state x="448" y="0" width="749" height="726" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608704506165" />
     <state x="275" y="135" key="EnvironmentVariablesDialog" timestamp="1608688430731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
