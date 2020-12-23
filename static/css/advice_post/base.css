@@ -1,0 +1,22 @@
+.return
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-return
+{
+    width: 40px;
+    height: 40px;
+}
+
+.search-form
+{
+    display: flex;
+    align-items: center;
+}
+
+.h1
+{
+    text-align: center;
+}

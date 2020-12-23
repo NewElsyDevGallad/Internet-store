@@ -1,0 +1,16 @@
+{% extends "order/create.html" %}
+{% load static %}
+{% block head %}
+    <link href="{% static "css/order/payment.css" %}" rel="stylesheet">
+{% endblock %}
+{% block content %}
+    <form action="." method="post" class="order-form">
+        <div class="of">
+            <h3 class="h3"><span class="text">payment form</span></h3>
+            <p>*date format MM/DD/YYYY</p>
+            {{ form.as_p }}
+            {% csrf_token %}
+            <p><input type="submit" value="PAY"></p>
+        </div>
+    </form>
+{% endblock %}

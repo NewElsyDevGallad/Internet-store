@@ -1,0 +1,165 @@
+#content
+{
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 676px;
+}
+
+.header
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.BRICK-logo
+{
+  width: 15%;
+  height: 15%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.info
+{
+  margin-right: 20px;
+  font-family: arial, helvetica, sans-serif;
+}
+
+.phone-num
+{
+  color: firebrick;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.working-hours
+{
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+.address
+{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.menu
+{
+  display: flex;
+  justify-content: center;
+}
+
+.button
+{
+  border: 10px;
+  width: 33%;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #ccc;
+  text-align: center;
+}
+
+.h2
+{
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+
+.intro
+{
+  margin-left: 30px;
+  font-size: 24px;
+}
+
+.map
+{
+  margin-left: 30px;
+  font-size: 24px;
+}
+
+.storage
+{
+  margin-left: 30px;
+  font-size: 24px;
+}
+
+.btn-text
+{
+  font-size: 24px;
+  color: firebrick;
+  text-decoration: none;
+  font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.text
+{
+  font-family: arial, helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.button:hover
+{
+    background-color: firebrick;
+    cursor: pointer;
+}
+
+.button:hover .btn-text
+{
+  color: white;
+}
+
+.h-line
+{
+  margin: 1px;
+  color: #cccccc;
+}
+
+.map
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.BRICK-map
+{
+  align-self: center;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.storage
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.BRICK-storage
+{
+  align-self: center;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid gray;
+  margin-top: 5px;
+}
+
+.footer
+{
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.copyright
+{
+  color: #cccccc;
+}

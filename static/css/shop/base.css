@@ -1,0 +1,40 @@
+.subheader
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.cart
+{
+    display: flex;
+    margin-right: 50px;
+    border: 2px solid grey;
+    background-color: #eeeeee;
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.btn-text
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.img-return
+{
+    width: 40px;
+    height: 40px;
+}

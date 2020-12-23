@@ -1,0 +1,14 @@
+{% extends "order/create.html" %}
+{% load static %}
+{% block head %}
+    <link href="{% static "css/order/created.css" %}" rel="stylesheet">
+{% endblock %}
+{% block content %}
+    <div class="button">
+        <a href="/" class="btn-text">
+            Return to Main Page
+        </a>
+    </div>
+    <p class="text-finish">Thanks for buying our products!</p>
+{% endblock %}
+

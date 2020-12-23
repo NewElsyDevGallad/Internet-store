@@ -1,0 +1,32 @@
+{% extends "main.html" %}
+{% load static %}
+{% block head %}<link href="{% static "css/shop/base.css" %}" rel="stylesheet">{% endblock %}
+{% block title %}My shop{% endblock %}
+{% block content %}
+    <div class="header">
+        {% block goback %}{% endblock %}
+    </div>
+    <div class="subheader">
+        <div class="cart">
+        {% with total_items=cart.count_item %}
+            {% if total_items > 0 %}
+                Your cart:
+                <a href="{% url "cart:cart_detail" %}">
+                    {{ total_items }} item{{ total_items|pluralize }},
+                    <span>{{ cart.get_total_price }} ₽</span>
+                </a>
+            {% else %}
+                Your cart is empty.
+            {% endif %}
+        {% endwith %}
+        </div>
+    </div>
+    <div class="catalog">
+        {% block catalog %}
+        {% endblock %}
+    </div>
+    <div class="product">
+        {% block product %}
+        {% endblock %}
+    </div>
+{% endblock %}

@@ -1,0 +1,54 @@
+{% extends "main.html" %}
+{% load static %}
+{% block title %}Main Page{% endblock %}
+{% block content %}
+    <div class="header">
+        <img src="{% static "images/logo.jpg" %}" class="BRICK-logo" alt="BRICK logo">
+        <div class="info">
+            <p class="phone-num">8 800-555-35-35</p>
+            <p class="working-hours">Daily 8 A.M. - 8 P.M.</p>
+            <p class="address">Tomsk, Griboedova st. 6</p>
+        </div>
+    </div>
+
+    <hr class="h-line">
+    <div class="menu">
+        {% url "home" as page_url %}
+        <div class="button">
+            <a class="btn-text" href="{{ page_url }}"{% if page_url == current_url %} {% endif %}>
+                Main
+            </a>
+        </div>
+
+        {% url "shop:product_list" as page_url %}
+        <div class="button">
+            <a class="btn-text" href="{{ page_url }}"{% if page_url == current_url %} {% endif %}>
+                Catalog
+            </a>
+        </div>
+        {% url "advice_post:post_list" as page_url %}
+        <div class="button">
+            <a class="btn-text" href="{{ page_url }}"{% if page_url == current_url %} {% endif %}>
+                Tips and advices
+            </a>
+        </div>
+    </div>
+    <hr class="h-line">
+
+    <h2 class="h2">
+        <span class="text">Everything for building</span>
+    </h2>
+    <div class="intro">
+        <p class="text">
+            In our store &quot;BRICK&quot; you can find everything: there are 39823 unique products.
+        </p>
+    </div>
+    <div class="map">
+        <p class="text">Here you can find us</p>
+        <img src="{% static "images/map.jpg" %}" class="BRICK-map" alt="BRICK map">
+    </div>
+    <div class="storage">
+        <p class="text">It is our storage, where we store products</p>
+        <img src="{% static "images/storage.jpg" %}" class="BRICK-storage" alt="BRICK storage">
+    </div>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "post/base.html" %}
+{% load static %}
+{% block title %}
+    {{ post.title }}
+{% endblock %}
+{% block content %}
+    {% block goback %}
+        <a href="/advices/">
+            <img src="{% static "images/return.png"%}" class="img-return" alt="no_image">
+        </a>
+    {% endblock %}
+    <h1>{{ post.title }}</h1>
+    <p class="date">
+        Published {{ post.publish }} by {{ post.author }}
+    </p>
+    <p class="body">
+        {% include post.body_url %}
+    </p>
+{% endblock %}

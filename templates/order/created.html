@@ -1,0 +1,35 @@
+{% extends "order/create.html" %}
+{% load static %}
+{% block head %}
+    <link href="{% static "css/order/created.css" %}" rel="stylesheet">
+{% endblock %}
+{% block content %}
+    <div class="gratz">
+        <h1>
+            <span class="text">
+                Thank you!
+            </span>
+        </h1>
+        <p class="text">
+            Your order has been successfully completed. Your order number is
+            <strong>{{ order.id }}</strong>.
+        </p>
+        <p class="text">
+            Your purchase amount is
+            <span><strong>{{ total_cost }} ₽</strong></span>
+        </p>
+    </div>
+
+    <div class="buttons">
+        <div class="button">
+            <a href="/" class="btn-text">
+                Return to Main Page
+            </a>
+        </div>
+        <div class="button">
+            <a href="{% url "order:pay_method" order.id payment %}" class="btn-text">
+                Pay
+            </a>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,97 @@
+.h1
+{
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text-h3
+{
+    display: flex;
+    justify-content: center;
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 34px;
+    color: firebrick;
+}
+
+.sidebar-prods
+{
+    display: flex;
+}
+
+.sidebar
+{
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #eeeeee;
+}
+
+.product-list
+{
+    /*width: 500px;*/
+    max-width: 500px;
+    width: 100%;
+}
+
+.item
+{
+    display: flex;
+    width: 100%;
+    background-color: #eeeeee;
+    border: 1px solid #dddddd;
+}
+
+.name_n_price
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.imgitem
+{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.button
+{
+    width: 100%;
+    border-right: 0;
+}
+
+.button .btn-text
+{
+    text-align: start;
+    margin-left: 10px;
+}
+
+.text
+{
+    width: 100%;
+    max-width: 75px;
+}
+
+.pagination
+{
+    display: flex;
+    margin: 25px;
+}
+
+.step-links
+{
+    display: flex;
+    padding: 15px;
+    background-color: #dddddd;
+}
+
+.text
+{
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 100px;
+}

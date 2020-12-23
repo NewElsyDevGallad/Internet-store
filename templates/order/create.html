@@ -1,0 +1,44 @@
+{% extends "main.html" %}
+{% load static %}
+{% block head %}
+    <link href="{% static "css/order/create.css" %}" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $(".delivery-form").ready(function () {
+            $(".delivery-form").change(function () {
+                $("span.cost").replaceWith('<span class="cost">' + {{ delivery_costs.1 }} + ' ₽' + '</span>');
+            });});
+    </script>
+{% endblock %}
+{% block title %}Checkout{% endblock %}
+{% block content %}
+    <h1 class="h1-order">Checkout</h1>
+    <div class="order">
+        <div class="order-info">
+            <h3>Your order</h3>
+            <ul>
+                {% for item in cart %}
+                    <li>
+                        {{ item.quantity }}x {{ item.product.name }}
+                        <span>{{ item.total_price }} ₽</span>
+                    </li>
+                {% endfor %}
+            </ul>
+            <p>Total: <span>{{ cart.get_total_price }} ₽</span></p>
+        </div>
+        <form action="." method="post" class="order-form">
+            <h3>Client form</h3>
+            {{ form.as_p }}
+            <hr style="color: #0000FF">
+            <div class="delivery-form">
+                <h3>Delivery form</h3>
+                {{ delivery_form.as_p }} <span class="cost">0 ₽</span>
+            </div>
+            <hr style="color: #0000FF">
+            <h3>Payment form</h3>
+            {{ payment_form.as_p }}
+            <p><input type="submit" value="Place order"></p>
+            {% csrf_token %}
+        </form>
+    </div>
+{% endblock %}

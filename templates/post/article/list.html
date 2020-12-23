@@ -1,0 +1,29 @@
+{% extends "post/base.html" %}
+{% load static %}
+{% block goback %}
+    <a href="/" class="return">
+        <img src="{% static "images/return.png"%}" class="img-return" alt="no_image">
+    </a>
+{% endblock %}
+{% block posts %}
+    <h1 class="h1"><span class="text">Advices and tips</span></h1>
+    <form class="search-form" action="{% url 'advice_post:post_search' %}" method="GET">
+        <label>
+            <input type="text" name="q" class="search" value="" placeholder="search...">
+        </label>
+        <input type="submit" class="request" value="Go">
+    </form>
+    {% for post in posts %}
+        <h2>
+            <img src="{% get_static_prefix %}{{ post.img_url }}" class="imgitem" width="200" height="200" alt="no_image">
+            <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+        </h2>
+        <p class="date">
+            Published {{ post.publish }} by {{ post.author }}
+        </p>
+        <p class="views">
+            Просмотров: {{ post.views }}
+        </p>
+    {% endfor %}
+    {% include "post/pagination.html" with page=posts %}
+{% endblock %}

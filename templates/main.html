@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <link rel="icon" href={% static "images/icon/hammer.ico" %}/>
+      <link rel="stylesheet" type="text/css" href="{% static "css/main.css" %}">
+      {% block head %}{% endblock %}
+      {% block subhead %}{% endblock %}
+    <title>
+        {% block title %}{% endblock %}
+         :: Brick
+    </title>
+  </head>
+  <body>
+    <style>body {background: url({% static "images/brick-wall.jpg" %});}</style>
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+    <div class="footer"><p class="copyright">Copyright &copy {% now "Y" %}</p></div>
+  </body>
+</html>

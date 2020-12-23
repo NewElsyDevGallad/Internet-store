@@ -1,0 +1,19 @@
+{% extends "main.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% for tip in tip_list %}
+            {% if tip.tip_content_url == current_url %}
+                tip.tip_name
+            {% endif %}
+        {% endfor %}
+    </title>
+{% block content %}
+{% endblock %}
+</head>
+<body>
+
+</body>
+</html>

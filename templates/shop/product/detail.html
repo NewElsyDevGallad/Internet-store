@@ -1,0 +1,40 @@
+{% extends "shop/base.html" %}
+{% load static %}
+{% block subhead %}<link href="{% static "css/shop/detail.css" %}" rel="stylesheet">{% endblock %}
+{% block goback %}
+    <a href="/catalog/">
+        <img src="{% static "images/return.png"%}" class="img-return" alt="no_image">
+    </a>
+{% endblock %}
+{% block product %}
+    <div class="prod-n-q">
+        <div class="product-detail">
+            <img src="{% get_static_prefix %}{{ product.img_url }}" class="imgitem" width="100" height="100" alt="no_image">
+            <div class="ncdp">
+                <div class="ncd">
+                    <div class="nc">
+                        <h2 class="h-detail">{{ product.name }}</h2>
+                        <div class="button">
+                            <a class="btn-text" href="{{ product.category.get_absolute_url }}">
+                                {{ product.category }}
+                            </a>
+                        </div>
+                    </div>
+                    <p class="description">
+                        <span class="text">
+                            {{ product.description }}
+                        </span>
+                    </p>
+                    <p class="price">
+                        <span class="text">{{ product.price }} ₽</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <form class="qform" action="{% url "cart:cart_add" product.id %}" method="post">
+            {{ cart_product_form }}
+            {% csrf_token %}
+            <input type="submit" value="Add to cart">
+        </form>
+    </div>
+{% endblock %}

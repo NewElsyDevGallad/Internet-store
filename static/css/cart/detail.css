@@ -1,0 +1,62 @@
+.cart
+{
+    margin: 0 auto;
+}
+
+.tpanel
+{
+    background-color: #cccccc;
+}
+
+.column
+{
+    width: 18%;
+}
+
+
+.tfield
+{
+    background-color: #eee;
+}
+
+.field
+{
+    display: flex;
+    justify-content: center;
+}
+
+.total-field
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.button
+{
+    border: 1px solid #dddddd;
+    margin: 10px;
+}
+
+.btn-text
+{
+    padding: 3px;
+
+    font-size: 24px;
+    color: black;
+}
+
+.field_n_btn
+{
+    display: flex;
+    align-items: center;
+}

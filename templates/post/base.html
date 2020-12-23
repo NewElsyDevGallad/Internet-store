@@ -1,0 +1,15 @@
+{% extends "main.html" %}
+{% load static %}
+{% block head %}<link href="{% static "css/advice_post/base.css" %}" rel="stylesheet">{% endblock %}
+{% block title %}ADVICES AND TIPS{% endblock %}
+{% block content %}
+    <div class="header">
+        {% block goback %}{% endblock %}
+    </div>
+    <div class="posts">
+        {% block posts %}
+        {% endblock %}
+    </div>
+{% endblock %}
+
+

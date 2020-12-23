@@ -1,0 +1,15 @@
+{% extends "post/article/list.html" %}
+{% load static %}
+{% for post in posts %}
+    <h2>
+        <img src="{% get_static_prefix %}{{ post.img_url }}" class="imgitem" width="200" height="200" alt="no_image">
+        <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+    </h2>
+    <p class="date">
+        Published {{ post.publish }} by {{ post.author }}
+    </p>
+    <p class="views">
+        Просмотров: {{ post.views }}
+    </p>
+{% endfor %}
+{% include "post/pagination.html" with page=posts %}
