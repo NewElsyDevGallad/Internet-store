@@ -6,7 +6,7 @@
         <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
     </h2>
     <p class="date">
-        Published {{ post.publish }} by {{ post.author }}
+        Published {{ post.publish|date:"d.m.y" }} by {{ post.author }}
     </p>
     <p class="views">
         Просмотров: {{ post.views }}
