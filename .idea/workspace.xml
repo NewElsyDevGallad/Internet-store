@@ -4,7 +4,7 @@
     <list default="true" id="91a50fac-a700-40d1-b661-6d1d5d4d8f19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/post/article/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post/article/list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +203,7 @@
       <workItem from="1593529015462" duration="293000" />
       <workItem from="1608674874740" duration="18996000" />
       <workItem from="1608698356463" duration="14119000" />
-      <workItem from="1608782654363" duration="3612000" />
+      <workItem from="1608782654363" duration="10439000" />
     </task>
     <task id="LOCAL-00001" summary="Init git">
       <created>1608686677199</created>
@@ -324,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608712001794</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Fix static files">
+      <created>1608789923634</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608789923634</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +368,8 @@
     <MESSAGE value="without celery (advanced)" />
     <MESSAGE value="fix errors 2" />
     <MESSAGE value="fix errors 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix errors 3" />
+    <MESSAGE value="Fix static files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix static files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="25" key="#Notifications" timestamp="1608686509109">
@@ -372,10 +380,15 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="101" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1608699250733" />
-    <state x="448" y="0" width="749" height="726" key="CommitChangelistDialog2" timestamp="1608712000732">
+    <state x="448" y="0" width="749" height="726" key="CommitChangelistDialog2" timestamp="1608823572523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="448" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1024.0.1024.728@0.0.1366.728" timestamp="1608823572523" />
     <state x="448" y="0" width="749" height="726" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608712000732" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1608791941863">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728/-1024.0.1024.728@0.0.1366.728" timestamp="1608791941863" />
     <state x="275" y="135" key="EnvironmentVariablesDialog" timestamp="1608688430731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
