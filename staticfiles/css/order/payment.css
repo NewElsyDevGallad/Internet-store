@@ -1,0 +1,17 @@
+.order-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.of
+{
+    background-color: #eeeeee;
+    padding: 30px;
+}
+
+.h3
+{
+    font-size: 40px;
+}

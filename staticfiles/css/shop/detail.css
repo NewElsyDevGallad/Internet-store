@@ -1,0 +1,69 @@
+.product
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.prod-n-q
+{
+    background-color: #dddddd;
+}
+
+.product-detail
+{
+    display: flex;
+}
+
+.ncdp
+{
+    margin-left: 10px;
+}
+
+.ncd
+{
+
+}
+
+.nc
+{
+    flex-direction: column;
+}
+
+.h-detail
+{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+}
+
+.description
+{
+    font-size: 20px;
+}
+
+.imgitem:hover
+{
+    height: 90%;
+    width: 90%;
+}
+
+.qform
+{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.button
+{
+    border: 0;
+    width: 100%;
+}
+
+.btn-text
+{
+    width: 100%;
+    max-width: 250px;
+}

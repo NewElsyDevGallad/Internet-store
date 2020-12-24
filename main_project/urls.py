@@ -16,8 +16,7 @@ urlpatterns = [
 
 # В конце файла:
 if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-if settings.MEDIA_ROOT:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    if settings.MEDIA_ROOT:
+        urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 # Эта строка опциональна и будет добавлять url'ы только при DEBUG = True
 urlpatterns += staticfiles_urlpatterns()

@@ -1,0 +1,22 @@
+.h1-order
+{
+    display: flex;
+    justify-content: center;
+}
+
+.order
+{
+    display: flex;
+}
+
+.order-info
+{
+    margin-left: 20px;
+    background-color: #dddddd;
+    width: 30%;
+}
+
+.order-form
+{
+    margin-left: 20px;
+}
