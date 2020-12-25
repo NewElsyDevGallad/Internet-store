@@ -4,7 +4,7 @@ from .models import Post
 
 
 def post_list(request):
-    object_list = Post.objects.filter(status='Published')
+    object_list = Post.objects.all()  # filter(status='Published')
     paginator = Paginator(object_list, 3)
     page = request.GET.get('page')
     try:
@@ -13,10 +13,7 @@ def post_list(request):
         posts = paginator.page(1)
     except EmptyPage:
         posts = paginator.page(paginator.num_pages)
-    return render(request,
-                  'post/article/list.html',
-                  {'page': page,
-                   'posts': posts})
+    return render(request, 'post/article/list.html', {'page': page, 'posts': posts})
 
 
 def post_detail(request, year, month, day, post_slug):
