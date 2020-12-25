@@ -202,7 +202,7 @@
       <workItem from="1608674874740" duration="18996000" />
       <workItem from="1608698356463" duration="14119000" />
       <workItem from="1608782654363" duration="13966000" />
-      <workItem from="1608855494843" duration="15568000" />
+      <workItem from="1608855494843" duration="15916000" />
     </task>
     <task id="LOCAL-00001" summary="Init git">
       <created>1608686677199</created>
@@ -358,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608870752845</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="other micro fix search module">
+      <created>1608871289880</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1608871289880</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +407,8 @@
     <MESSAGE value="add .gitignore to root dir" />
     <MESSAGE value="Work with pagination and search" />
     <MESSAGE value="Debug false&#10;micro fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Debug false&#10;micro fix" />
+    <MESSAGE value="other micro fix search module" />
+    <option name="LAST_COMMIT_MESSAGE" value="other micro fix search module" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="25" key="#Notifications" timestamp="1608686509109">
@@ -411,10 +419,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="101" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1608699250733" />
-    <state x="315" y="0" width="749" height="726" key="CommitChangelistDialog2" timestamp="1608870752011">
+    <state x="315" y="0" width="749" height="726" key="CommitChangelistDialog2" timestamp="1608871289029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="315" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1024.0.1024.728@0.0.1366.728" timestamp="1608870752011" />
+    <state x="315" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1024.0.1024.728@0.0.1366.728" timestamp="1608871289029" />
     <state x="448" y="0" width="749" height="726" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608712000732" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1608791941863">
       <screen x="0" y="0" width="1366" height="728" />
