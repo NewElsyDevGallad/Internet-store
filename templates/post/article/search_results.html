@@ -1,6 +1,6 @@
 {% extends "post/article/list.html" %}
 {% load static %}
-{% if posts %}
+{#{% if posts %}#}
     {% for post in posts %}
         <h2>
             <img src="{% get_static_prefix %}{{ post.img_url }}" class="imgitem" width="200" height="200" alt="no_image">
@@ -14,7 +14,7 @@
         </p>
     {% endfor %}
 {#    {{ last_queryset }}#}
-{% else %}
-    <p>Не найдено статей по Вашему запросу</p>
-{% endif %}
+{#{% else %}#}
+{#    <p>Не найдено статей по Вашему запросу</p>#}
+{#{% endif %}#}
 {% include "post/pagination.html" with page=posts %}

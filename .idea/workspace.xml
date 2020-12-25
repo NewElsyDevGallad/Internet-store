@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="91a50fac-a700-40d1-b661-6d1d5d4d8f19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/post/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post/pagination.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +202,7 @@
       <workItem from="1608674874740" duration="18996000" />
       <workItem from="1608698356463" duration="14119000" />
       <workItem from="1608782654363" duration="13966000" />
-      <workItem from="1608855494843" duration="15107000" />
+      <workItem from="1608855494843" duration="15568000" />
     </task>
     <task id="LOCAL-00001" summary="Init git">
       <created>1608686677199</created>
@@ -353,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608869940218</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Debug false&#10;micro fix">
+      <created>1608870752845</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608870752845</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +399,8 @@
     <MESSAGE value="Fix advice module" />
     <MESSAGE value="add .gitignore to root dir" />
     <MESSAGE value="Work with pagination and search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work with pagination and search" />
+    <MESSAGE value="Debug false&#10;micro fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Debug false&#10;micro fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="25" key="#Notifications" timestamp="1608686509109">
@@ -405,10 +411,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="101" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1608699250733" />
-    <state x="315" y="0" width="749" height="726" key="CommitChangelistDialog2" timestamp="1608869938820">
+    <state x="315" y="0" width="749" height="726" key="CommitChangelistDialog2" timestamp="1608870752011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="315" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1024.0.1024.728@0.0.1366.728" timestamp="1608869938820" />
+    <state x="315" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1024.0.1024.728@0.0.1366.728" timestamp="1608870752011" />
     <state x="448" y="0" width="749" height="726" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608712000732" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1608791941863">
       <screen x="0" y="0" width="1366" height="728" />
