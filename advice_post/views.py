@@ -31,19 +31,15 @@ def post_detail(request, year, month, day, post_slug):
 
 
 def post_search(request):
-    context = {}
-    if request.method == 'GET':
-        queryset = request.GET.get('q')
-        if queryset is not None:
-            object_list = Post.objects.filter(status='Published', title__contains=queryset)
-            # context['last_queryset'] = '?q={}'.format('+'.join(queryset.split(' ')))
-            paginator = Paginator(object_list, 3)
-            page = request.GET.get('page')
-            context['page'] = page
-            try:
-                context['posts'] = paginator.page(page)
-            except PageNotAnInteger:
-                context['posts'] = paginator.page(1)
-            except EmptyPage:
-                context['posts'] = paginator.page(paginator.num_pages)
-    return render(request, 'post/article/search_results.html', context=context)  # {'page': page, 'posts': posts}
+    queryset = request.GET.get('q')
+    object_list = Post.objects.filter(title__contains=queryset)  # status='Published',
+    # context['last_queryset'] = '?q={}'.format('+'.join(queryset.split(' ')))
+    paginator = Paginator(object_list, 3)
+    page = request.GET.get('page')
+    try:
+        posts = paginator.page(page)
+    except PageNotAnInteger:
+        posts = paginator.page(1)
+    except EmptyPage:
+        posts = paginator.page(paginator.num_pages)
+    return render(request, 'post/article/search_results.html', {'page': page, 'posts': posts})
