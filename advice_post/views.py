@@ -36,7 +36,7 @@ def post_search(request):
         queryset = request.GET.get('q')
         if queryset is not None:
             object_list = Post.objects.filter(status='Published', title__contains=queryset)
-            context['last_queryset'] = '?q={}'.format('+'.join(queryset.split(' ')))
+            # context['last_queryset'] = '?q={}'.format('+'.join(queryset.split(' ')))
             paginator = Paginator(object_list, 3)
             page = request.GET.get('page')
             context['page'] = page
